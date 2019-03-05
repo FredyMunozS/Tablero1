@@ -1,0 +1,331 @@
+﻿DistanciaMinima|DistanciaMaxima|Clima|Medio|Puntuacion
+0|2|broken clouds|Bici|90
+0|2|clear sky|Bici|100
+0|2|drizzle|Bici|10
+0|2|drizzle rain|Bici|10
+0|2|dust|Bici|10
+0|2|extreme rain|Bici|0
+0|2|few clouds|Bici|70
+0|2|fog|Bici|20
+0|2|freezing rain|Bici|10
+0|2|haze|Bici|20
+0|2|heavy intensity drizzle|Bici|10
+0|2|heavy intensity drizzle rain|Bici|10
+0|2|heavy intensity rain|Bici|10
+0|2|heavy intensity shower rain|Bici|10
+0|2|heavy shower rain and drizzle|Bici|10
+0|2|heavy shower snow|Bici|0
+0|2|heavy snow|Bici|0
+0|2|heavy thunderstorm|Bici|0
+0|2|light intensity drizzle|Bici|10
+0|2|light intensity drizzle rain|Bici|10
+0|2|light intensity shower rain|Bici|10
+0|2|light rain|Bici|10
+0|2|light rain and snow|Bici|0
+0|2|light shower snow|Bici|0
+0|2|light snow|Bici|0
+0|2|light thunderstorm|Bici|10
+0|2|mist|Bici|10
+0|2|moderate rain|Bici|10
+0|2|overcast clouds|Bici|40
+0|2|ragged shower rain|Bici|10
+0|2|ragged thunderstorm|Bici|10
+0|2|rain|Bici|10
+0|2|rain and snow|Bici|0
+0|2|sand|Bici|10
+0|2|"sand| dust whirls"|Bici|10
+0|2|scattered clouds|Bici|50
+0|2|shower drizzle|Bici|10
+0|2|shower rain|Bici|10
+0|2|shower rain and drizzle|Bici|10
+0|2|shower sleet|Bici|10
+0|2|shower snow|Bici|0
+0|2|sleet|Bici|0
+0|2|smoke|Bici|20
+0|2|snow|Bici|0
+0|2|squalls|Bici|0
+0|2|thunderstorm|Bici|10
+0|2|thunderstorm with drizzle|Bici|10
+0|2|thunderstorm with heavy drizzle|Bici|10
+0|2|thunderstorm with heavy rain|Bici|10
+0|2|thunderstorm with light drizzle|Bici|10
+0|2|thunderstorm with light rain|Bici|10
+0|2|thunderstorm with rain|Bici|10
+0|2|tornado|Bici|0
+0|2|very heavy rain|Bici|10
+0|2|volcanic ash|Bici|0
+2|100|broken clouds|Bus|80
+2|100|clear sky|Bus|80
+2|100|drizzle|Bus|80
+2|100|drizzle rain|Bus|80
+2|100|dust|Bus|80
+2|100|extreme rain|Bus|80
+2|100|few clouds|Bus|80
+2|100|fog|Bus|80
+2|100|freezing rain|Bus|80
+2|100|haze|Bus|80
+2|100|heavy intensity drizzle|Bus|80
+2|100|heavy intensity drizzle rain|Bus|80
+2|100|heavy intensity rain|Bus|80
+2|100|heavy intensity shower rain|Bus|80
+2|100|heavy shower rain and drizzle|Bus|80
+2|100|heavy shower snow|Bus|80
+2|100|heavy snow|Bus|80
+2|100|heavy thunderstorm|Bus|80
+2|100|light intensity drizzle|Bus|80
+2|100|light intensity drizzle rain|Bus|80
+2|100|light intensity shower rain|Bus|80
+2|100|light rain|Bus|80
+2|100|light rain and snow|Bus|80
+2|100|light shower snow|Bus|80
+2|100|light snow|Bus|80
+2|100|light thunderstorm|Bus|80
+2|100|mist|Bus|80
+2|100|moderate rain|Bus|80
+2|100|overcast clouds|Bus|80
+2|100|ragged shower rain|Bus|80
+2|100|ragged thunderstorm|Bus|80
+2|100|rain|Bus|80
+2|100|rain and snow|Bus|80
+2|100|sand|Bus|80
+2|100|"sand| dust whirls"|Bus|80
+2|100|scattered clouds|Bus|80
+2|100|shower drizzle|Bus|80
+2|100|shower rain|Bus|80
+2|100|shower rain and drizzle|Bus|80
+2|100|shower sleet|Bus|80
+2|100|shower snow|Bus|80
+2|100|sleet|Bus|80
+2|100|smoke|Bus|80
+2|100|snow|Bus|80
+2|100|squalls|Bus|80
+2|100|thunderstorm|Bus|80
+2|100|thunderstorm with drizzle|Bus|80
+2|100|thunderstorm with heavy drizzle|Bus|80
+2|100|thunderstorm with heavy rain|Bus|80
+2|100|thunderstorm with light drizzle|Bus|80
+2|100|thunderstorm with light rain|Bus|80
+2|100|thunderstorm with rain|Bus|80
+2|100|tornado|Bus|80
+2|100|very heavy rain|Bus|80
+2|100|volcanic ash|Bus|80
+3|100|broken clouds|Carro|90
+3|100|clear sky|Carro|90
+3|100|drizzle|Carro|90
+3|100|drizzle rain|Carro|90
+3|100|dust|Carro|90
+3|100|extreme rain|Carro|90
+3|100|few clouds|Carro|90
+3|100|fog|Carro|90
+3|100|freezing rain|Carro|90
+3|100|haze|Carro|90
+3|100|heavy intensity drizzle|Carro|90
+3|100|heavy intensity drizzle rain|Carro|90
+3|100|heavy intensity rain|Carro|90
+3|100|heavy intensity shower rain|Carro|90
+3|100|heavy shower rain and drizzle|Carro|90
+3|100|heavy shower snow|Carro|90
+3|100|heavy snow|Carro|90
+3|100|heavy thunderstorm|Carro|90
+3|100|light intensity drizzle|Carro|90
+3|100|light intensity drizzle rain|Carro|90
+3|100|light intensity shower rain|Carro|90
+3|100|light rain|Carro|90
+3|100|light rain and snow|Carro|90
+3|100|light shower snow|Carro|90
+3|100|light snow|Carro|90
+3|100|light thunderstorm|Carro|90
+3|100|mist|Carro|90
+3|100|moderate rain|Carro|90
+3|100|overcast clouds|Carro|90
+3|100|ragged shower rain|Carro|90
+3|100|ragged thunderstorm|Carro|90
+3|100|rain|Carro|90
+3|100|rain and snow|Carro|90
+3|100|sand|Carro|90
+3|100|"sand| dust whirls"|Carro|90
+3|100|scattered clouds|Carro|90
+3|100|shower drizzle|Carro|90
+3|100|shower rain|Carro|90
+3|100|shower rain and drizzle|Carro|90
+3|100|shower sleet|Carro|90
+3|100|shower snow|Carro|90
+3|100|sleet|Carro|90
+3|100|smoke|Carro|90
+3|100|snow|Carro|90
+3|100|squalls|Carro|90
+3|100|thunderstorm|Carro|90
+3|100|thunderstorm with drizzle|Carro|90
+3|100|thunderstorm with heavy drizzle|Carro|90
+3|100|thunderstorm with heavy rain|Carro|90
+3|100|thunderstorm with light drizzle|Carro|90
+3|100|thunderstorm with light rain|Carro|90
+3|100|thunderstorm with rain|Carro|90
+3|100|tornado|Carro|90
+3|100|very heavy rain|Carro|90
+3|100|volcanic ash|Carro|90
+3|100|broken clouds|Moto|90
+3|100|clear sky|Moto|100
+3|100|drizzle|Moto|10
+3|100|drizzle rain|Moto|10
+3|100|dust|Moto|10
+3|100|extreme rain|Moto|0
+3|100|few clouds|Moto|70
+3|100|fog|Moto|20
+3|100|freezing rain|Moto|10
+3|100|haze|Moto|20
+3|100|heavy intensity drizzle|Moto|10
+3|100|heavy intensity drizzle rain|Moto|10
+3|100|heavy intensity rain|Moto|10
+3|100|heavy intensity shower rain|Moto|10
+3|100|heavy shower rain and drizzle|Moto|10
+3|100|heavy shower snow|Moto|0
+3|100|heavy snow|Moto|0
+3|100|heavy thunderstorm|Moto|0
+3|100|light intensity drizzle|Moto|10
+3|100|light intensity drizzle rain|Moto|10
+3|100|light intensity shower rain|Moto|10
+3|100|light rain|Moto|10
+3|100|light rain and snow|Moto|0
+3|100|light shower snow|Moto|0
+3|100|light snow|Moto|0
+3|100|light thunderstorm|Moto|10
+3|100|mist|Moto|10
+3|100|moderate rain|Moto|10
+3|100|overcast clouds|Moto|40
+3|100|ragged shower rain|Moto|10
+3|100|ragged thunderstorm|Moto|10
+3|100|rain|Moto|10
+3|100|rain and snow|Moto|0
+3|100|sand|Moto|10
+3|100|"sand| dust whirls"|Moto|10
+3|100|scattered clouds|Moto|50
+3|100|shower drizzle|Moto|10
+3|100|shower rain|Moto|10
+3|100|shower rain and drizzle|Moto|10
+3|100|shower sleet|Moto|10
+3|100|shower snow|Moto|0
+3|100|sleet|Moto|0
+3|100|smoke|Moto|20
+3|100|snow|Moto|0
+3|100|squalls|Moto|0
+3|100|thunderstorm|Moto|10
+3|100|thunderstorm with drizzle|Moto|10
+3|100|thunderstorm with heavy drizzle|Moto|10
+3|100|thunderstorm with heavy rain|Moto|10
+3|100|thunderstorm with light drizzle|Moto|10
+3|100|thunderstorm with light rain|Moto|10
+3|100|thunderstorm with rain|Moto|10
+3|100|tornado|Moto|0
+3|100|very heavy rain|Moto|10
+3|100|volcanic ash|Moto|0
+0|1|broken clouds|Peaton|90
+0|1|clear sky|Peaton|100
+0|1|drizzle|Peaton|10
+0|1|drizzle rain|Peaton|10
+0|1|dust|Peaton|10
+0|1|extreme rain|Peaton|0
+0|1|few clouds|Peaton|70
+0|1|fog|Peaton|20
+0|1|freezing rain|Peaton|10
+0|1|haze|Peaton|20
+0|1|heavy intensity drizzle|Peaton|10
+0|1|heavy intensity drizzle rain|Peaton|10
+0|1|heavy intensity rain|Peaton|10
+0|1|heavy intensity shower rain|Peaton|10
+0|1|heavy shower rain and drizzle|Peaton|10
+0|1|heavy shower snow|Peaton|0
+0|1|heavy snow|Peaton|0
+0|1|heavy thunderstorm|Peaton|0
+0|1|light intensity drizzle|Peaton|10
+0|1|light intensity drizzle rain|Peaton|10
+0|1|light intensity shower rain|Peaton|10
+0|1|light rain|Peaton|10
+0|1|light rain and snow|Peaton|0
+0|1|light shower snow|Peaton|0
+0|1|light snow|Peaton|0
+0|1|light thunderstorm|Peaton|10
+0|1|mist|Peaton|10
+0|1|moderate rain|Peaton|10
+0|1|overcast clouds|Peaton|40
+0|1|ragged shower rain|Peaton|10
+0|1|ragged thunderstorm|Peaton|10
+0|1|rain|Peaton|10
+0|1|rain and snow|Peaton|0
+0|1|sand|Peaton|10
+0|1|"sand| dust whirls"|Peaton|10
+0|1|scattered clouds|Peaton|50
+0|1|shower drizzle|Peaton|10
+0|1|shower rain|Peaton|10
+0|1|shower rain and drizzle|Peaton|10
+0|1|shower sleet|Peaton|10
+0|1|shower snow|Peaton|0
+0|1|sleet|Peaton|0
+0|1|smoke|Peaton|20
+0|1|snow|Peaton|0
+0|1|squalls|Peaton|0
+0|1|thunderstorm|Peaton|10
+0|1|thunderstorm with drizzle|Peaton|10
+0|1|thunderstorm with heavy drizzle|Peaton|10
+0|1|thunderstorm with heavy rain|Peaton|10
+0|1|thunderstorm with light drizzle|Peaton|10
+0|1|thunderstorm with light rain|Peaton|10
+0|1|thunderstorm with rain|Peaton|10
+0|1|tornado|Peaton|0
+0|1|very heavy rain|Peaton|10
+0|1|volcanic ash|Peaton|0
+0|8|broken clouds|Taxi|40
+0|8|clear sky|Taxi|40
+0|8|drizzle|Taxi|90
+0|8|drizzle rain|Taxi|90
+0|8|dust|Taxi|40
+0|8|extreme rain|Taxi|95
+0|8|few clouds|Taxi|40
+0|8|fog|Taxi|90
+0|8|freezing rain|Taxi|95
+0|8|haze|Taxi|90
+0|8|heavy intensity drizzle|Taxi|90
+0|8|heavy intensity drizzle rain|Taxi|90
+0|8|heavy intensity rain|Taxi|95
+0|8|heavy intensity shower rain|Taxi|95
+0|8|heavy shower rain and drizzle|Taxi|90
+0|8|heavy shower snow|Taxi|90
+0|8|heavy snow|Taxi|90
+0|8|heavy thunderstorm|Taxi|90
+0|8|light intensity drizzle|Taxi|90
+0|8|light intensity drizzle rain|Taxi|90
+0|8|light intensity shower rain|Taxi|95
+0|8|light rain|Taxi|95
+0|8|light rain and snow|Taxi|95
+0|8|light shower snow|Taxi|90
+0|8|light snow|Taxi|90
+0|8|light thunderstorm|Taxi|90
+0|8|mist|Taxi|90
+0|8|moderate rain|Taxi|95
+0|8|overcast clouds|Taxi|90
+0|8|ragged shower rain|Taxi|95
+0|8|ragged thunderstorm|Taxi|90
+0|8|rain|Taxi|95
+0|8|rain and snow|Taxi|95
+0|8|sand|Taxi|90
+0|8|"sand| dust whirls"|Taxi|90
+0|8|scattered clouds|Taxi|90
+0|8|shower drizzle|Taxi|90
+0|8|shower rain|Taxi|95
+0|8|shower rain and drizzle|Taxi|90
+0|8|shower sleet|Taxi|90
+0|8|shower snow|Taxi|90
+0|8|sleet|Taxi|90
+0|8|smoke|Taxi|90
+0|8|snow|Taxi|90
+0|8|squalls|Taxi|90
+0|8|thunderstorm|Taxi|90
+0|8|thunderstorm with drizzle|Taxi|90
+0|8|thunderstorm with heavy drizzle|Taxi|90
+0|8|thunderstorm with heavy rain|Taxi|95
+0|8|thunderstorm with light drizzle|Taxi|90
+0|8|thunderstorm with light rain|Taxi|95
+0|8|thunderstorm with rain|Taxi|95
+0|8|tornado|Taxi|90
+0|8|very heavy rain|Taxi|95
+0|8|volcanic ash|Taxi|90
