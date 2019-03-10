@@ -164,7 +164,7 @@ def update_output(clicks, Year, Milleage, Make, CarModel, State):
     T=joblib.load('VarT.pkl')
     Z2=joblib.load('VarZ2.pkl')
 
-    X2=T.append(pd.DataFrame([[2018 , 10000, ' CA' , 'BMW' , '5']], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
+    X2=T.append(pd.DataFrame([[Year , Milleage, State , Make , CarModel]], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
     print(X2)
     
     Z2=Z2.append(ce.BinaryEncoder().fit_transform(X2.drop(['Mileage'], axis=1)))
