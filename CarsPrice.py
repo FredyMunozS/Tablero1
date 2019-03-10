@@ -26,7 +26,7 @@ data = pd.read_csv('tmp.csv',  index_col=False)
 data = data[['Price','Year', 'Mileage', 'State', 'Make', 'Model']]
 #print('data ',data.shape)
 #print('data ',data.head())
-
+X = data.drop(['Price'], axis=1)
 
 
 Cars = data.groupby(['Make', 'Model'])['Make'].count().to_frame(name='Cantidad').reset_index()
