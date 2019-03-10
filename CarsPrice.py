@@ -47,7 +47,10 @@ Model = joblib.load('CarsPriceModel.pkl')
 X = data.drop(['Price'], axis=1)
 #print('X ',X.shape)
 X['Year'] = X['Year'].astype('category')
-X_ = pd.get_dummies(X.drop(['Mileage'], axis=1))
+
+X_ = pd.get_dummies(X.drop(['Mileage'], axis=1)).astype(np.int8)
+#X_ = pd.get_dummies(X.drop(['Mileage'], axis=1))
+
 Z=X_.iloc[0:0]
 X_['Mileage']=X['Mileage']
 X=X.iloc[0:0]
