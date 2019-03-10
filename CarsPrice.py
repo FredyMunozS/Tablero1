@@ -38,56 +38,8 @@ States=sorted(data.State.unique())
 #   Importar el modelo                                 #
 ########################################################
 
-
-
 #Model = joblib.load('C:/Users/Admin/Documents/1. Universidad/5. Mineria de Datos/Proyecto/CarsPriceModel.pkl')
-#Model = joblib.load('CarsPriceModel.pkl')
-
-#Codificacion
-X = data.drop(['Price'], axis=1)
-#print('X ',X.shape)
-X['Year'] = X['Year'].astype('category')
-
-X_ = pd.get_dummies(X.drop(['Mileage'], axis=1),sparse=True).astype(np.int8)
-#X_ = pd.get_dummies(X.drop(['Mileage'], axis=1))
-
-Z=X_.iloc[0:0]
-X_['Mileage']=X['Mileage']
-X=X.iloc[0:0]
-#print('X ',X.shape)
-Z=X_.iloc[0:0]
-#print('X ',X.shape)
-
-
-  #Codificacion
-y = data['Price']
-X = data.drop(['Price'], axis=1)
-#print('X ',X.shape)
-X['Year'] = X['Year'].astype('category')
-
-#     pd.get_dummies(X.drop(['Mileage'], axis=1)).astype(np.int8).info()
-XD = pd.get_dummies(X.drop(['Mileage'], axis=1),sparse=True).astype(np.int8)
-
-
-Z=XD.iloc[0:0]
-XD['Mileage']=X['Mileage']
-X=X.iloc[0:0]
-#print('X ',X.shape)
-Z=XD.iloc[0:0]
-#print('X ',X.shape)
-
-
-########################################################
-#   Con arbol de desicion                              #
-########################################################
-
-from sklearn.tree import DecisionTreeClassifier
-Model = DecisionTreeClassifier(max_depth=4, random_state=1)
-Model.fit(XD, y)
-
-joblib.dump(Model, 'CarsPriceModel.pkl')  
-
-
+Model = joblib.load('CarsPriceModel.pkl')
 
 
 ##########################
@@ -125,8 +77,6 @@ Milleage=dcc.Input(id='InputMilleage',
                    )
 
 Button= html.Button('Calcular..', id='ButtonCalc')
-
-
 
 
 
@@ -212,10 +162,11 @@ def update_output(clicks, Year, Milleage, Make, CarModel, State):
     X2=X.append(pd.DataFrame([[Year , Milleage, State , Make , CarModel]], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
     print(X2)
     X2['Year'] = X2['Year'].astype('category')
-    
-    Z2=Z.append(pd.get_dummies(X2.drop(['Mileage'], axis=1).iloc[[0]]))
+       
+    Z2=Z.append(ce.BinaryEncoder().fit_transform(X2.drop(['Mileage'], axis=1)))
     Z2['Mileage']=X2['Mileage']
-    
+    Z2['Year']=X2['Year']
+
     Z2.fillna(0, inplace=True)
        
     return 'El precio estimado es: {}'.format(Model.predict(Z2))
