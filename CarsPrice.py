@@ -165,12 +165,13 @@ def update_output(clicks, Year, Milleage, Make, CarModel, State):
     Z2=joblib.load('VarZ2.pkl')
 
     X2=T.append(pd.DataFrame([[2018 , 10000, ' CA' , 'BMW' , '5']], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
-
+    print(X2)
+    
     Z2=Z2.append(ce.BinaryEncoder().fit_transform(X2.drop(['Mileage'], axis=1)))
     Z2['Mileage']=X2['Mileage']
     Z2['Year']=X2['Year']
-
     Z2.fillna(0, inplace=True)
+    print(Z2)
        
     return 'El precio estimado es: {}'.format(Model.predict(Z2))
 
