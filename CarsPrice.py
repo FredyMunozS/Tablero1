@@ -59,9 +59,33 @@ Z=X_.iloc[0:0]
 #print('X ',X.shape)
 
 
-    
+  #Codificacion
+y = data['Price']
+X = data.drop(['Price'], axis=1)
+#print('X ',X.shape)
+X['Year'] = X['Year'].astype('category')
+
+#     pd.get_dummies(X.drop(['Mileage'], axis=1)).astype(np.int8).info()
+XD = pd.get_dummies(X.drop(['Mileage'], axis=1),sparse=True).astype(np.int8)
 
 
+Z=XD.iloc[0:0]
+XD['Mileage']=X['Mileage']
+X=X.iloc[0:0]
+#print('X ',X.shape)
+Z=XD.iloc[0:0]
+#print('X ',X.shape)
+
+
+########################################################
+#   Con arbol de desicion                              #
+########################################################
+
+from sklearn.tree import DecisionTreeClassifier
+treeclf = DecisionTreeClassifier(max_depth=4, random_state=1)
+treeclf.fit(XD, y)
+
+joblib.dump(treeclf, 'CarsPriceModel.pkl')  
 
 
 
