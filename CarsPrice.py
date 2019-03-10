@@ -27,6 +27,9 @@ data = data[['Price','Year', 'Mileage', 'State', 'Make', 'Model']]
 #print('data ',data.shape)
 #print('data ',data.head())
 X = data.drop(['Price'], axis=1)
+XD = ce.BinaryEncoder().fit_transform(X.drop(['Year','Mileage'], axis=1))
+XD['Mileage']=X['Mileage']
+XD['Year']=X['Year']
 
 
 Cars = data.groupby(['Make', 'Model'])['Make'].count().to_frame(name='Cantidad').reset_index()
@@ -159,10 +162,14 @@ def set_model_options(selected_make):
 def update_output(clicks, Year, Milleage, Make, CarModel, State):
     
     
-    X2=X.append(pd.DataFrame([[Year , Milleage, State , Make , CarModel]], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
-    print(X2)
-    X2['Year'] = X2['Year'].astype('category')
-       
+    
+    Z=XD.iloc[0:0]
+    T=X.iloc[0:0]
+
+    X2=T.append(pd.DataFrame([[2018 , 10000, ' CA' , 'BMW' , '5']], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
+
+
+    Z2=Z.iloc[0:0]
     Z2=Z.append(ce.BinaryEncoder().fit_transform(X2.drop(['Mileage'], axis=1)))
     Z2['Mileage']=X2['Mileage']
     Z2['Year']=X2['Year']
