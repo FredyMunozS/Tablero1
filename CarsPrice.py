@@ -20,8 +20,8 @@ import category_encoders as ce
 #   obtienen las marcas y modelos correspondientes     #
 ########################################################
 
-#data = pd.read_csv('https://github.com/albahnsen/PracticalMachineLearningClass/raw/master/datasets/dataTrain_carListings.zip')
-#data.to_csv('tmp.csv', index=False)
+data = pd.read_csv('https://github.com/albahnsen/PracticalMachineLearningClass/raw/master/datasets/dataTrain_carListings.zip')
+data.to_csv('tmp.csv', index=False)
 data = pd.read_csv('tmp.csv',  index_col=False)
 data = data[['Price','Year', 'Mileage', 'State', 'Make', 'Model']]
 #print('data ',data.shape)
