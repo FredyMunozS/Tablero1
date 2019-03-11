@@ -170,7 +170,7 @@ def update_output(clicks, Year, Milleage, Make, CarModel, State):
     X2D = T.append(pd.get_dummies(data=X2))
     X2D.fillna(0, inplace=True)
        
-    return 'El precio estimado es: {}'.format(Model.predict(Z2))
+    return 'El precio estimado es: {}'.format(Model.predict(X2D))
 
 
 
