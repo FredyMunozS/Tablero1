@@ -162,16 +162,13 @@ def update_output(clicks, Year, Milleage, Make, CarModel, State):
     
     
     T=joblib.load('T527.pkl')
-    Z2=joblib.load('Z2527.pkl')
+    X2D=joblib.load('Z2527.pkl')
 
     X2=T.append(pd.DataFrame([[Year , Milleage, State , Make , CarModel]], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
     print(X2)
     
-    Z2=Z2.append(ce.BinaryEncoder().fit_transform(X2.drop(['Mileage'], axis=1)))
-    Z2['Mileage']=X2['Mileage']
-    Z2['Year']=X2['Year']
-    Z2.fillna(0, inplace=True)
-    print(Z2)
+    X2D = T.append(pd.get_dummies(data=X2))
+    X2D.fillna(0, inplace=True)
        
     return 'El precio estimado es: {}'.format(Model.predict(Z2))
 
