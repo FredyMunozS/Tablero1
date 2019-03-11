@@ -161,8 +161,8 @@ def update_output(clicks, Year, Milleage, Make, CarModel, State):
     
     
     
-    T=joblib.load('VarT.pkl')
-    Z2=joblib.load('VarZ2.pkl')
+    T=joblib.load('T527.pkl')
+    Z2=joblib.load('Z2527.pkl')
 
     X2=T.append(pd.DataFrame([[Year , Milleage, State , Make , CarModel]], columns=['Year', 'Mileage', 'State', 'Make', 'Model']))
     print(X2)
