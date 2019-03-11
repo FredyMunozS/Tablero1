@@ -91,7 +91,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 
 banner = html.Div([
-                    html.H1('Pronóstico de precio de vehiculos V2:' , style={'width': '100%', 'display': 'inline-block', 'color': colors['text'], 'margin':25})
+                    html.H1('Pronóstico de precio de vehiculos:' , style={'width': '100%', 'display': 'inline-block', 'color': colors['text'], 'margin':25})
                 ])
 
 
