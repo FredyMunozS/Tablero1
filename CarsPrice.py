@@ -38,7 +38,7 @@ States=sorted(data.State.unique())
 ########################################################
 
 #Model = joblib.load('C:/Users/Admin/Documents/1. Universidad/5. Mineria de Datos/Proyecto/CarsPriceModel.pkl')
-Model = joblib.load('CarsPriceModeldtr.pkl')
+Model = joblib.load('CarsPriceModel.pkl')
 
 
 
